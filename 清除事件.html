@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div style="width: 100px; height: 200px; background-color: blue"></div>
+<input type="text" name="" >
+
+
+
+
+<script type="text/javascript">
+    var callback=function (event) {  //定义一个函数
+        this.value="123456";
+        console.log(event)
+    };
+  var inp=document.querySelector("input");
+    //鼠标聚焦事件
+    //方式1
+    // inp.addEventListener("focus",callback);
+    //方式2
+     inp.onfocus=callback;
+    //清除事件
+    var btn= document.querySelector("div");
+    btn.onclick=function () {
+      //方式1    inp.removeEventListener("focus",callback)
+        //方式2
+        inp.onfocus=null;
+    }
+    //以后碰到网页复制收费的话，清除他的所有事件，再试试,可以取控制台Evenlument里面有个事件，可以点击移除
+</script>
+</body>
+</html>
