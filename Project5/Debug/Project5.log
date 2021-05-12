@@ -1,0 +1,10 @@
+﻿  数组.cpp
+D:\C++编程练习\Project5\数组.cpp(17,10): warning C4476: "scanf_s": 格式说明符中的类型字段字符“.”未知
+D:\C++编程练习\Project5\数组.cpp(17,58): warning C4474: scanf_s: 格式字符串中传递的参数太多
+D:\C++编程练习\Project5\数组.cpp(17,58): message : 占位符和其参数预计 3 可变参数，但提供的却是 6 参数
+D:\C++编程练习\Project5\数组.cpp(28,10): warning C4477: “printf”: 格式字符串“%d”需要类型“int”的参数，但可变参数 2 拥有了类型“int *”
+D:\C++编程练习\Project5\数组.cpp(28,10): warning C4477: “printf”: 格式字符串“%.2f”需要类型“double”的参数，但可变参数 3 拥有了类型“float *”
+D:\C++编程练习\Project5\数组.cpp(28,10): warning C4477: “printf”: 格式字符串“%.2f”需要类型“double”的参数，但可变参数 4 拥有了类型“float *”
+D:\C++编程练习\Project5\数组.cpp(28,84): warning C4474: printf: 格式字符串中传递的参数太多
+D:\C++编程练习\Project5\数组.cpp(28,84): message : 占位符和其参数预计 4 可变参数，但提供的却是 5 参数
+D:\C++编程练习\Project5\数组.cpp(17): error C4700: 使用了未初始化的局部变量“i”
