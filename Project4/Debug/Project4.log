@@ -1,0 +1,6 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(5148,5): warning MSB3061: 无法删除文件“D:\C++编程练习\Project4\Debug\Project4.exe”。对路径“D:\C++编程练习\Project4\Debug\Project4.exe”的访问被拒绝。
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(76,5): warning : 对路径“d:\c++编程练习\project4\debug\project4.exe”的访问被拒绝。
+  加法.cpp
+  加法实现函数.cpp
+  正在生成代码...
+LINK : fatal error LNK1104: 无法打开文件“D:\C++编程练习\Project4\Debug\Project4.exe”
