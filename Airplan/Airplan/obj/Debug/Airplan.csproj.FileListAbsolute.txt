@@ -1,0 +1,10 @@
+D:\C++编程练习\Airplan\Airplan\bin\Debug\Airplan.exe.config
+D:\C++编程练习\Airplan\Airplan\bin\Debug\Airplan.exe
+D:\C++编程练习\Airplan\Airplan\bin\Debug\Airplan.pdb
+D:\C++编程练习\Airplan\Airplan\obj\Debug\Airplan.csprojResolveAssemblyReference.cache
+D:\C++编程练习\Airplan\Airplan\obj\Debug\Airplan.FrmLogin.resources
+D:\C++编程练习\Airplan\Airplan\obj\Debug\Airplan.Properties.Resources.resources
+D:\C++编程练习\Airplan\Airplan\obj\Debug\Airplan.csproj.GenerateResource.Cache
+D:\C++编程练习\Airplan\Airplan\obj\Debug\Airplan.exe
+D:\C++编程练习\Airplan\Airplan\obj\Debug\Airplan.pdb
+D:\C++编程练习\Airplan\Airplan\obj\Debug\Airplan.FrmInex.resources
