@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1607676794 source:d:\c++编程练习\售票系统\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
