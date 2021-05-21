@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+
+
+<script type="text/javascript">
+
+    // var a1=11;
+    // var a2=12;
+    // function ff() {
+    //   return function () {
+    //       return  a1+a2;
+    //   }
+    // };
+    // console.log(ff());  //调用ff()后会返回一个函数，如果不再次调用的话，就直接打印函数体
+    //
+    //
+
+
+
+    //  var a=10;
+    //  var b=20;
+    // function mm () {
+    //        return function () {
+    //           var mun=0;
+    //          for(var i=0;i<arguments.length;i++){
+    //              mun+=arguments[i];
+    //          }
+    //          return mun;
+    //       }
+    //   }
+    // // var result=add();
+    //  var result=mm();
+    //  console.log(result(1,2,3));
+
+     // 闭包指子函数可以访问外部作用域变量的函数特性，即使在子函数作用域外也可以访问。如果没有闭包
+     // 那么在处理事件绑定，异步请求时都会变得困难。
+
+     // function hd() {
+     //     let name = '欣知';
+     //     return function () {
+     //         return name;
+     //     }
+     // }
+     // let xzcms = hd();  //调用这个方法，会返回一个方法，这个方法需要调用
+     // console.log(xzcms()); //调用返回方法后，就可以打印出来结果了
+     //
+     //
+
+
+
+
+    // // 闭包做缓存
+    // var plus = (function () {   //()()两个括号是立即执行函数
+    //     var cache = {};   //设置一个对象
+    //     return function () {
+    //         // var key = [].join.call(arguments); //可以拿出可变参数对象arguments出来做一个字符串放到Key里面去
+    //         var key=arguments.toString(); //arguments是可变数组对象，强转成字符串
+    //         if (key in cache) {
+    //             console.log('走了缓存')
+    //             return cache[key]
+    //         }
+    //         console.log('又计算了一次')
+    //         var sum = 0;
+    //         for (var i = 0; i < arguments.length; i++) {
+    //             sum += arguments[i]
+    //         }
+    //         cache[key] = sum;   //对象名[]的方式,可以给对象新添加属性值,此时的cache对象有了 let cache={"1,2,3,4":10,}
+    //
+    //         return sum;
+    //     }
+    // })();
+    //
+    // plus(1,2,3,4);  //利用了可变参数的效果arguments，arguments是可变参数
+    // plus(1,2,3,4);
+    // plus(1,2,3,4);
+
+  //写一个自己的闭包缓存
+   var Mypluss=function () {
+        var cache={};
+        return function () {
+           var key=[].join.call(arguments); //将可变参数对象转为字符串
+           if(key in cache){
+               console.log("走了缓存！")
+               return cache[key];
+           }
+           var result=0;
+           for(var i=0;i<arguments.length;i++){
+               result+=arguments[i];
+           }
+           cache[key]=result; //设置缓存
+           return  result;
+        }
+   };
+    console.log(Mypluss()(1,2,3)); //函数名调用，得到的函数要再次传参调用
+    console.log(Mypluss()(1,2,3));
+    console.log(Mypluss()(1,2,3));
+
+
+
+
+
+
+</script>
+</body>
+</html>
