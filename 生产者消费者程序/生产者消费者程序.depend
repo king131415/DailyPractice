@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1591498437 source:d:\c++编程练习\生产者消费者程序\main.cpp
+	<unistd.h>
+	<cstdlib>
+	<condition_variable>
+	<iostream>
+	<mutex>
+	<thread>
+
