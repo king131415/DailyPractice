@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1589619626 source:d:\c++编程练习\雷达问题\main.cpp
+	<iostream>
+	<cstring>
+	<cstdio>
+	<cstdlib>
+	<iomanip>
+	<algorithm>
+	<iomanip>
+	<cmath>
+
